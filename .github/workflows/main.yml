@@ -29,3 +29,4 @@ jobs:
         with:
           asset_path: ${{ steps.build.outputs.artifact_path }}
           asset_name: ${{ steps.build.outputs.artifact_name }}
+          upload_url: ${{ github.event.release.release.upload_url }}
