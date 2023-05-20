@@ -29,4 +29,3 @@ jobs:
         with:
           asset_path: ${{ steps.build.outputs.artifact_path }}
           asset_name: ${{ steps.build.outputs.artifact_name }}
-          target_file: ${{ steps.build.outputs.target_file }}
